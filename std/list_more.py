@@ -1,8 +1,10 @@
 # for list
 magicians = ['alice','david','carolina']
+
 for mgc in magicians:
 	print(mgc)
 print('For is over !!')
+print(magicians[0])
 
 # range(1,4): 1 <= value < 4
 for v in range(1,4):
