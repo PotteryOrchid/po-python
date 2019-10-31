@@ -12,7 +12,7 @@ print(fruits)
 fruits.append('pear')
 print(fruits)
 # Insert value
-fruits.insert(2,'hami melon')
+fruits.insert(2, 'hami melon')
 print(fruits)
 # Delete value
 del fruits[1]
@@ -36,9 +36,9 @@ fruits.sort(reverse=True)
 print(fruits)
 
 # sorted(): Sort values tmp. 临时排序，列表中数据顺序不会改变。
-trees = ['willow','maple','poplar']
+trees = ['willow', 'maple', 'poplar']
 print(sorted(trees))
-print(sorted(trees,reverse=True))
+print(sorted(trees, reverse=True))
 print(trees)
 
 # reverse(): 反转顺序，列表中数据顺序会改变。
