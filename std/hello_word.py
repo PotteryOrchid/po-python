@@ -4,6 +4,8 @@ print("Hello python world! \n")
 msg = "Hello world by msg"
 print(msg)
 
+print('"hello"')
+
 # 制表符：\t 换行：\n 换行：\r \f \b \a \v
 print("tab:\t==new_line:\r==FF:\f==BS:\b==BEL:\a==VT:\v==new_line:\n==")
 
