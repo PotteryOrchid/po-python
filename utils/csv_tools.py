@@ -1,8 +1,9 @@
 import pandas as pd
 
-df = pd.DataFrame
 train = pd.read_csv('../resources/datas/kc_train.csv', names=range(1, 15))
 test = pd.read_csv('../resources/datas/kc_test.csv', names=range(1, 14))
+
+# df = pd.DataFrame
 
 # get some columns
 # df_train_2d = (train.loc[:, [9, 2]])
